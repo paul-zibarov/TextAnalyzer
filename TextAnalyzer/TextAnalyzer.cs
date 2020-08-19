@@ -5,7 +5,7 @@ namespace TextAnalyzer
 {
     public class TextAnalyzer
     {
-        private IMetricFactory _factory;
+        private readonly IMetricFactory _factory;
         
         public TextAnalyzer(IMetricFactory factory)
         {
