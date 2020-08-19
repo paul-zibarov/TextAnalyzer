@@ -15,10 +15,12 @@ namespace TextAnalyzer.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly TextAnalyzer _analyzer;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, TextAnalyzer analyzer)
         {
             _logger = logger;
+            _analyzer = analyzer;
         }
 
         public IActionResult Index()
@@ -40,8 +42,7 @@ namespace TextAnalyzer.Controllers
         [HttpPost]
         public IActionResult UploadText(string text)
         {
-            var uploadedText = $"uploaded text: {text}";
-            return Content(uploadedText);
+            return View(new ResultViewModel(_analyzer.GetAnalysisResult(text)));
         }
         
         [HttpPost]
@@ -58,10 +59,8 @@ namespace TextAnalyzer.Controllers
                     result.AppendLine(reader.ReadLine()); 
                 }
             }
-            
-            var uploadedText = $"uploaded file text: \n{result.ToString()}";
-                
-            return Content(uploadedText);
+
+            return View(new ResultViewModel(_analyzer.GetAnalysisResult(result.ToString())));
         }
     }
 }
