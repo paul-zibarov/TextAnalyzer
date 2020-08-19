@@ -2,9 +2,9 @@
 
 namespace TextAnalyzer.Metrics
 {
-    public class CountOfWords
+    public class CountOfWordsMetric : ITextMetric
     {
-        public static string Analyze(string text)
+        public string Analyze(string text)
         {
             const char dash = '-';
             const char apostrophe = '\'';
@@ -32,7 +32,7 @@ namespace TextAnalyzer.Metrics
                 }
             }
 
-            return $"Count of words {countOfWords}";
+            return $"Count of words: {countOfWords}";
         }
     }
 }
