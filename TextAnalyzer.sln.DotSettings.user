@@ -1,0 +1,8 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=16a28a04_002D154e_002D465f_002Db96a_002D4d92aac0fa02/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Test1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::8BE8F206-C4E1-4C3D-A23D-88434A122768::.NETCoreApp,Version=v3.1::MetricsTests.MetricTest.CountOfPunctuationSymbolsMetricTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::8BE8F206-C4E1-4C3D-A23D-88434A122768::.NETCoreApp,Version=v3.1::MetricsTests.MetricTest.CountOfParagraphsMetricTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::8BE8F206-C4E1-4C3D-A23D-88434A122768::.NETCoreApp,Version=v3.1::MetricsTests.MetricTest.CountOfWordsMetricTest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

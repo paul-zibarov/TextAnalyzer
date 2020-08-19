@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextAnalyzer", "TextAnalyzer\TextAnalyzer.csproj", "{B67F97C4-D93B-4C9D-86B0-3CAA49D8CB39}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetricsTests", "MetricsTests\MetricsTests.csproj", "{8BE8F206-C4E1-4C3D-A23D-88434A122768}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{B67F97C4-D93B-4C9D-86B0-3CAA49D8CB39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B67F97C4-D93B-4C9D-86B0-3CAA49D8CB39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B67F97C4-D93B-4C9D-86B0-3CAA49D8CB39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BE8F206-C4E1-4C3D-A23D-88434A122768}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BE8F206-C4E1-4C3D-A23D-88434A122768}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BE8F206-C4E1-4C3D-A23D-88434A122768}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BE8F206-C4E1-4C3D-A23D-88434A122768}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
