@@ -4,5 +4,26 @@
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <p>Enter your text and press the button to analyze: </p>
+    <form class="manual--input" enctype="multipart/form-data" method="post">
+        <div class="form--container">
+            <div>
+                <textarea class="text--input" type="text" name="text"></textarea>
+            </div>
+            <div class="button--container">
+                <input class="send--button" type="submit" value="Analyze">
+            </div>
+        </div>
+    </form>
+    <h4 class="display-4">Or</h4>
+    <form class="manual--input" enctype="multipart/form-data" method="post">
+        <div class="form--container">
+            <div>
+                <input type="file" name="file" accept=".txt">
+            </div>
+            <div class="button--container">
+                <input type="submit" value="Analyze">
+            </div>
+        </div>
+    </form>
 </div>
